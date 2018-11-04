@@ -1,11 +1,11 @@
 ---
 title: "Ref fire After ComponentDidUpdate Method in React"
-date: 2017-10-20 08:26:28 -0400
-categories: Today I Learn
+date: 2018-10-31 14:26:28 -0400
+categories: React Ref
 ---
 
 
-2018.10.31
+
 
 1. React의 LifeCycle Method가 3rd party library (like M-UI)에서 이상하게 작동하는 문제 발생
   - M-UI의 다이얼로그가 단순히 감춰놓는 식의 방식이 아니라 완전히 DOM을 생성, 제거 하기 때문에 발생하는 문제?로 추정
