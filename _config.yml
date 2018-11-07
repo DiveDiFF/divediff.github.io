@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "DiveDiFF"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "./assets/images/yunho.jpg"
   bio              : "#FrontEnd Developer #HR Manager #PADI scubadiver"
   location         : "Seoul, Korea"
   email            : divediff@gmail.com
@@ -132,12 +132,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/divediff/"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/DiveDiFF/"
