@@ -1,7 +1,7 @@
 ---
 title: "Using ref with @withStyles"
 date: 2018-11-06 11:21:20 -0400
-categories: ref, react
+categories: Ref React
 comments: true
 ---
 
@@ -9,7 +9,7 @@ comments: true
 
 Material-UI의 customizing 방법으로 편하고 가독성이 좋은 해당 클래스에 withStyles 데코레이터를 붙이는 방식을 이용
 
-```javaScirpt
+```javascript
 @withStyles(()=> ({
   root: {},
   title:  {},
@@ -25,7 +25,7 @@ class AnyComponent extends React.Componet {
 <br><br>
 해당 컴포넌트에 ref가 설정되어 있는 경우 해당 class를 wrapping 하고 있는 @withStyles 데코레이터로 인해 참조가 깨짐
 
-```javaScirpt
+```javascript
 ...
 <AnyComponent ref={ref => this.component = ref} />
 ...
@@ -38,7 +38,7 @@ withStyles의 클래스를 살펴보면 꾸며지는 Component Class를 받아�
 
 **ref를 innerRef로 대체하는 것만으로 해당 문제 해결이 가능했다.!!**
 
-```javaScirpt
+```javascript
 ...
 <AnyComponent innerRef={ref => this.component = ref} />
 ...
