@@ -2,6 +2,7 @@
 title: "Welcome to My Blog"
 date: 2018-11-04 18:21:10 -0400
 categories: index
+classes: wide
 comments: true
 ---
 
