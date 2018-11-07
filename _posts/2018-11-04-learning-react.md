@@ -2,6 +2,7 @@
 title: "Ref fire After ComponentDidUpdate Method in React"
 date: 2018-10-31 14:26:28 -0400
 categories: React Ref
+classes: wide
 comments: true
 ---
 
