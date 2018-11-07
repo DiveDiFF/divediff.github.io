@@ -2,7 +2,6 @@
 title: "Using ref with @withStyles"
 date: 2018-11-06 11:21:20 -0400
 categories: Ref React
-classes: wide
 comments: true
 ---
 
