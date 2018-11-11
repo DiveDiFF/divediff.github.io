@@ -1,7 +1,7 @@
 ---
 title: "About"
 excerpt: "About me."
-permalink: /about.html
+permalink: /about/
 ---
 
 # About DiveDiFF
@@ -10,18 +10,28 @@ permalink: /about.html
 
 ### 대기업 교육 담당을 거쳐 인사담당자로 5년 반.
 
-내게 있어 개발이란 생각을 표현하는 강력한 도구. 생각하기 좋아하고, 표현하길 좋아하는 내겐 또하나의 수단. __마치 레고.__
-초보 개발자로 30대 중반이란 조금 늦은 나이에 커리어를 다시 시작하지만, 너무 재밌고 즐거움.
+H 그룹 인사담당자 출신.
+  - 인사 / 교육 분야에 두루 경험.
+  - 퇴직 후 패스트캠퍼스 Front-end School 수료
+
+### 개발자로 실습 시작
+
+미소 Inc에서 개발자 실습 중...
 
 <br>
 
 ## PROFILE
 
-### 할 줄 아는거?? 보다 배울게 더 많지...
+### 배민찬 카피 프로젝트
+  - Angular6 프레임워크로 SPA방식의 카피 사이트 제작
 
 어쩌다 Angular를 공부했고, 작은 팀프로젝트에 프론트엔드 개발자로 참가해서 배달의민족에서 만든 반찬 가게 __배민찬__ 카피 사이트를 만들었음.
 
 [참조] : [baeminchan-project](https://github.com/DiveDiFF/baeminchan-project)
+
+
+
+## NOW...
 
 제일 큰 공부는 역시 회사에서 욕먹어가면서 배우는 것이라 생각하여 취업을 생각했으나, 운좋게도 관심있던 회사에서 일할 기회를 얻었음. 여긴 React... 다시 React를 배우고 있음. 일하다보면 HTML, CSS가 벽이라더니.. Material-UI 다루는데 제일 애먹고 있음.
 
