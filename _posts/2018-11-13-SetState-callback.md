@@ -13,9 +13,7 @@ state인데 state의 직접 변경은 react가 감지하여 DOM의 rerender를 �
 
 
 ```javascirpt
-
 this.state.id = 13
-
 ```
 > 직접 state의 id를 13으로 변경하고 있음. __금지!__
 
@@ -24,7 +22,6 @@ this.state.id = 13
 변화시킨다.(구체적인 React의 setState 작동은 다루지 않는다.) 
 
 ```javascript
-
 this.setState({id: 13})
 ```
 > setState 메소드로 id를 13으로 변경하고 있음. __권장!__
@@ -38,7 +35,6 @@ setState 메소드는 가능한 가장 마지막에 실행시킨다. 다시 말�
 크다는 것을 의미한다.
 
 ```javascript
-
 this.setState({id: 13})
 this.props.onChange(this.state.id)
 ```
@@ -57,7 +53,6 @@ setState의 두번째 인자로 callback 함수를 작성하여 실행하면, �
 있을 만큼 원하는 결과를 얻을 수 있으리라 믿는다.
 
 ```javascript
-
 this.setState({id: 13},
   () => {this.props.onChange(this.state.id)})
 ```
