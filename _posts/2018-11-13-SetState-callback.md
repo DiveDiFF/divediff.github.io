@@ -23,7 +23,7 @@ this.state.id = 13
 이럴 때 사용하는 메소드가 setState()다. setState 메소드를 이용해서 state를 재설정 해 주는 방식으로만 state 상태를 변화시켜야 React는 이를 감지하여 View를
 변화시킨다.(구체적인 React의 setState 작동은 다루지 않는다.) 
 
-```javascirpt
+```javascript
 
 this.setState({id: 13})
 ```
@@ -58,7 +58,8 @@ setState의 두번째 인자로 callback 함수를 작성하여 실행하면, �
 
 ```javascript
 
-this.setState({id: 13}, () => {this.props.onChange(this.state.id)})
+this.setState({id: 13},
+  () => {this.props.onChange(this.state.id)})
 ```
 > callback으로 state 전달 (1번 방법)
 
