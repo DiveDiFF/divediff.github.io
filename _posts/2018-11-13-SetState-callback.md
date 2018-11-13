@@ -13,7 +13,7 @@ state인데 state의 직접 변경은 react가 감지하여 DOM의 rerender를 �
 
 
 ```javascirpt
-this.state.id = 13
+this.state = {id: 13}
 ```
 > 직접 state의 id를 13으로 변경하고 있음. __금지!__
 
