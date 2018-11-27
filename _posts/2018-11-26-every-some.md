@@ -23,16 +23,30 @@ function isBiggerThan10(element, index, array) {
 
 > 배열 요소 중 하나라도 10보다 크면 true
 
+<br><br>
+
 every는 모든 요소가 다 조건을 충족해야만 true를 반환한다.
 
 이를 validate 체크에 응용하면
 
-```javascirpt
+```javascript
+
 validate () {
   return Array.from(['name', 'phone']).every(ref => this[ref].validate())
 }
+
+handleSubmit () {
+
+  if (validate()) {
+    ...
+  }
+...
+}
+
 ```
 
 > 한줄로 끝.. 각각의 validate 결과가 모두 true인 경우만 true를 반환함.
+
+<br><br>
 
 기존에 반복문을 돌려 배열을 탐색하는 방식보다 훨씬 깔끔...
